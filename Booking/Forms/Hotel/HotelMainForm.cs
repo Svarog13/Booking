@@ -24,6 +24,7 @@ namespace Booking.Forms.Hotel
 
         private void btnCreateHotel_Click(object sender, EventArgs e)
         {
+            //
             HotelCreateForm dlg = new HotelCreateForm();
             if (dlg.ShowDialog() == DialogResult.OK)
             {
